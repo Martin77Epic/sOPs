@@ -1,0 +1,10 @@
+name: OPs
+main: Martin77Epic\OPs
+version: 1.0.0
+api: 1.0.0
+
+commands:
+ OPs:
+  description: "List all OPS Players"
+  usage: "/ops"
+  permission: oPS.ops
