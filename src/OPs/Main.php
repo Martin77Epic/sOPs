@@ -1,5 +1,7 @@
 <?php
+
 namespace OPs;
+
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
@@ -10,15 +12,16 @@ use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 use pocketmine\permission\ServerOperator;
+
 class Main extends PluginBase implements Listener{
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveDefaultConfig();
-        $this->getLogger()->info(TextFormat::AQUA . "OPs");
+        $this->getLogger()->info(TextFormat::AQUA . "[OPs]"TextFormatt::DARK_GREEN . "enabled");
     }
     
     public function onDisable(){
-        $this->getLogger()->info(TextFormat::AQUA . "OPs.");
+        $this->getLogger()->info(TextFormat::AQUA . "[OPs]" disabled);
     }
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
