@@ -11,4 +11,4 @@ commands:
     ops:
         description: "List all online OPs"
         usage "/ops"
-        permisson: "m77e.o
+        permisson: "m77e.ops"
