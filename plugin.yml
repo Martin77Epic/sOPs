@@ -1,10 +1,14 @@
 name: OPs
-main: Martin77Epic\OPs
-version: 1.0.0
-api: 1.0.0
-
+author: Martin77Epic
+website: http://martin77epic.ga
+api:
+    - 1.0.0
+    - 2.0.0
+    - 1.4
+    - 1.5
+main: martin77epic\ops\Main
 commands:
- OPs:
-  description: "List all OPS Players"
-  usage: "/ops"
-  permission: oPS.ops
+    ops:
+        description: "List all online OPs"
+        usage "/ops"
+        permisson: "m77e.o
